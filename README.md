@@ -84,7 +84,7 @@ livingRoom: the number of living room<br>
 drawingRoom: the number of drawing room<br>
 kitchen: the number of kitchen<br>
 bathroom the number of bathroom<br>
-floor: the height of the house. I will turn the Chinese characters to English in the next version.<br>
+floor: the height of the house.<br>
 buildingType: including tower( 1 ) , bungalow( 2 )，combination of plate and tower( 3 ), plate( 4 ).<br>
 constructionTime: the time of construction<br>
 renovationCondition: including other( 1 ), rough( 2 ),Simplicity( 3 ), hardcover( 4 )<br>
@@ -111,8 +111,6 @@ we handle NAN value using appropriate solutions.
 DOM Column have more than 50% value are missing it's better to delete that column
 
 
-![](https://github.com/bibek376/Housing_Price_Prediction/blob/master/Picture_For_README/4.png)<br>
-some column have unique character. we solve these problem using split method and create seprate column for unique character.<br>
 
 We also have a categorical data we handle such kind of data using dummies variable concept. following are the columns which have categorical data.<br>
 a. renovationCondition<br>
